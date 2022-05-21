@@ -22,8 +22,10 @@ III, **Mô tả các chức năng đã cài đặt**
      1. Chế độ cổ điển (Classic): không có tường xung quanh, rắn có thể xuyên qua tường và chui lại từ đầu đối diện.
      2. Chế độ hiện đại (Modern): có tường bao quanh, rắn khi lao vào tường sẽ bị chết.
   3. Thay đổi tốc độ của rắn (Level): có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng
+
 *(chế độ chơi càng khó thì giá trị điểm của mỗi quả cherry càng tăng -max 20, min 5-)*
-*xem chi tiết tại link youtube(https://www.youtube.com/watch?v=J9A5TxFo0cY).
+
+*xem chi tiết tại (https://www.youtube.com/watch?v=J9A5TxFo0cY).
 
 
 IV, **Các kỹ thuật lập trình được sử dụng trong chương trình**
