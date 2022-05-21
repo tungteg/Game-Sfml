@@ -24,6 +24,8 @@ III, **Mô tả các chức năng đã cài đặt**
   3. Thay đổi tốc độ của rắn (Level): có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng
 *(chế độ chơi càng khó thì giá trị điểm của mỗi quả cherry càng tăng -max 20, min 5-)*
 *xem chi tiết tại link youtube(https://www.youtube.com/watch?v=J9A5TxFo0cY).
+
+
 IV, **Các kỹ thuật lập trình được sử dụng trong chương trình**
  1. struct: sử dụng để biểu diễn rắn, quả cherry, tường, điểm cao.
  2. mảng: rắn,...
