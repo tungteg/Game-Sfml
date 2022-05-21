@@ -15,12 +15,12 @@ II, **Mô tả chung về trò chơi, các ý tưởng chính**
 * các ý tưởng: các chế độ chơi khác nhau, các skin rắn khác nhau.
 
 III, **Mô tả các chức năng đã cài đặt**
- 1. Chức năng lưu lại điểm cao (High Score)
- 2. Chức năng tùy chọn (Option)
+ * Chức năng lưu lại điểm cao (High Score).
+ * Chức năng tùy chọn (Option).
   1. Thay đổi màu sắc của rắn (Skin): có 4 màu sắc của rắn, thay đổi phụ thuộc vào sở thích của người chơi.
   2. Thay đổi chế độ chơi (Game Type): có 2 chế độ chơi khác nhau
      1. Chế độ cổ điển (Classic): không có tường xung quanh, rắn có thể xuyên qua tường và chui lại từ đầu đối diện.
      2. Chế độ hiện đại (Modern): có tường bao quanh, rắn khi lao vào tường sẽ bị chết.
   3. Thay đổi tốc độ của rắn (Level): có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng
-3.*(chế độ chơi càng khó thì giá trị điểm của mỗi quả cherry càng tăng -max 20, min 5-)*
+*(chế độ chơi càng khó thì giá trị điểm của mỗi quả cherry càng tăng -max 20, min 5-)*
   
