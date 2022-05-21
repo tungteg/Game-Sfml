@@ -1,11 +1,11 @@
 [Project]
-FileName=sfmlTest.dev
-Name=sfmlTest
+FileName=GameSnake.dev
+Name=Project1
 Type=0
 Ver=2
 ObjFiles=
-Includes=D:\C++\SFML-2.4.2\include
-Libs=D:\C++\SFML-2.4.2\lib
+Includes=SFML-2.4.2\include
+Libs=SFML-2.4.2\lib
 PrivateResource=
 ResourceIncludes=
 MakeIncludes=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=sfmlTest.exe
+OverrideOutputName=GameSnake.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=00000000g0000000001000000
+CompilerSettings=00000000g0000000000000000
 UnitCount=1
 
 [VersionInfo]
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=sfmltest.cpp
+FileName=mainGameSnake.cpp
 CompileCpp=1
 Folder=
 Compile=1
