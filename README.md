@@ -1,13 +1,13 @@
 I, **Hướng dẫn cài đặt thư viện SFML TRÊN DEV C++**
  1. Mở dev c++, trên thanh công cụ chọn Project -> chọn Project Options
  2. Chọn Parameters, trong Linker chúng ta dán 4 dòng sau vào:
-  *-lsfml-audi
-  *-lsfml-graphics
-  *-lsfml-window
-  *-lsfml-system 
+     1. -lsfml-audio
+     2. -lsfml-graphics
+     3. -lsfml-window
+     4. -lsfml-system 
  3. Chọn Directories
- *trong Libary Directories chúng ta add đường dẫn: SFML-2.4.2\lib
- *trong Include Directories ta add đường dẫn: SFML-2.4.2\include
+     1. trong Libary Directories chúng ta add đường dẫn: SFML-2.4.2\lib
+     2. trong Include Directories ta add đường dẫn: SFML-2.4.2\include
  4. chọn OK, thế là xong các bước cài đặt thư viện sfml vào dev c++. Video hướng dẫn chi tiết (https://www.youtube.com/watch?v=uAd2jINKCxc).
  
 II, **Mô tả chung về trò chơi, các ý tưởng chính**
