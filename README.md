@@ -33,4 +33,20 @@ IV, **Các kỹ thuật lập trình được sử dụng trong chương trình*
  2. mảng: rắn,...
  3. đồ họa: thư viện sfml
 
-V, ****
+V, **Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình**
+* Kết luận: đã hoàn thành được 80% các ý tưởng của bản thân đề ra, đồ họa chưa được đẹp.
+* Hướng phát triển:
+   1. Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tưởng 2 bên,...
+   2. Màu sắc của rắn (skin): phát triển thêm nhiều skin mới, bắt mắt và đẹp hơn.
+   3. Thay đổi màu tưởng.
+* Các điều tâm đắc sau khi hoàn thiện chương trình:
+   1.  biết sử dụng thư viện đồ họa SFML.
+   2.  biết sắp xếp code sao cho dễ đọc và dễ hiểu.
+   3.  biết cách edit đồ họa bằng paint.
+   
+
+
+
+
+
+
