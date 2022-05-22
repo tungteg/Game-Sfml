@@ -17,13 +17,13 @@ II, **Mô tả chung về trò chơi, các ý tưởng chính**
 III, **Mô tả các chức năng đã cài đặt**
  * Chức năng lưu lại điểm cao (High Score).
  * Chức năng tùy chọn (Option).
-  1. Thay đổi màu sắc của rắn (Skin): có 4 màu sắc của rắn, thay đổi phụ thuộc vào sở thích của người chơi.
-  2. Thay đổi chế độ chơi (Game Type): có 2 chế độ chơi khác nhau
-     1. Chế độ cổ điển (Classic): không có tường xung quanh, rắn có thể xuyên qua tường và chui lại từ đầu đối diện.
-     2. Chế độ hiện đại (Modern): có tường bao quanh, rắn khi lao vào tường sẽ bị chết.
-  3. Thay đổi tốc độ của rắn (Level): có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng
+    1. Thay đổi màu sắc của rắn (Skin): có 4 màu sắc của rắn, thay đổi phụ thuộc vào sở thích của người chơi.
+    2. Thay đổi chế độ chơi (Game Type): có 2 chế độ chơi khác nhau
+       1. Chế độ cổ điển (Classic): không có tường xung quanh, rắn có thể xuyên qua tường và chui lại từ đầu đối diện.
+       2. Chế độ hiện đại (Modern): có tường bao quanh, rắn khi lao vào tường sẽ bị chết.
+    3. Thay đổi tốc độ của rắn (Level): có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng
 
-*(chế độ chơi càng khó thì giá trị điểm của mỗi quả cherry càng tăng -max 20, min 5-)*
+  *(chế độ chơi càng khó thì giá trị điểm của mỗi quả cherry càng tăng -max 20, min 5-)*
 
 *xem chi tiết tại (https://www.youtube.com/watch?v=J9A5TxFo0cY).
 
@@ -36,9 +36,9 @@ IV, **Các kỹ thuật lập trình được sử dụng trong chương trình*
 V, **Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình**
 * Kết luận: đã hoàn thành được 80% các ý tưởng của bản thân đề ra, đồ họa chưa được đẹp.
 * Hướng phát triển:
-   1. Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tưởng 2 bên,...
+   1. Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tường 2 bên, kết hợp giứa chế độ classic và modern.
    2. Màu sắc của rắn (skin): phát triển thêm nhiều skin mới, bắt mắt và đẹp hơn.
-   3. Thay đổi màu tưởng.
+   3. Thay đổi màu tường.
 * Các điều tâm đắc sau khi hoàn thiện chương trình:
    1.  biết sử dụng thư viện đồ họa SFML.
    2.  biết sắp xếp code sao cho dễ đọc và dễ hiểu.
