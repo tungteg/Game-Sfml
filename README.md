@@ -1,6 +1,8 @@
 I, **Hướng dẫn cài đặt thư viện SFML TRÊN DEV C++**
- 1. Mở dev c++, trên thanh công cụ chọn Project -> chọn Project Options
- 2. Chọn Parameters, trong Linker chúng ta dán 4 dòng sau vào:
+* File thư viện sfml đã có sẵn chỉ cần down git về và cái đặt theo hướng dẫn là chơi được.
+
+1.Mở GameSanke, trên thanh công cụ chọn Project -> chọn Project Options
+2. Chọn Parameters, trong Linker chúng ta dán 4 dòng sau vào:
      1. -lsfml-audio
      2. -lsfml-graphics
      3. -lsfml-window
