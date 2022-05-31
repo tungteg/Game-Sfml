@@ -27,10 +27,10 @@ III, **Mô tả các chức năng đã cài đặt**
     2. Thay đổi chế độ chơi (Game Type): có 2 chế độ chơi khác nhau
        1. Chế độ cổ điển (Classic): 
           1. không có tường xung quanh, rắn có thể xuyên qua tường và chui lại từ đầu đối diện.
-          2. nguyên lý: khi vị trí đầu của con rắn đi vào cuối vị trí *map* thì đầu sẽ được nhận vị trí được đối diện.
+          2. logic: khi vị trí đầu của con rắn đi vào cuối vị trí *map* thì đầu sẽ được nhận vị trí được đối diện.
        2. Chế độ hiện đại (Modern): 
           1. có tường bao quanh, rắn khi lao vào tường sẽ bị chết.
-          2. nguyên lý: hàm *fEndGame* sẽ check xem rắn có đi vào tường không nếu đi vào tường thì sẽ chết.
+          2. logic: hàm *fEndGame* sẽ check xem rắn có đi vào tường không nếu đi vào tường thì sẽ chết.
        
     3. Thay đổi tốc độ của rắn (Level): có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng.
 
@@ -40,23 +40,31 @@ III, **Mô tả các chức năng đã cài đặt**
 
 
 IV, **Các kỹ thuật lập trình được sử dụng trong chương trình**
- * struct: sử dụng để biểu diễn vị trí rắn, quả cherry, tường, điểm cao.
- * mảng: rắn,...
- * nhập xuất tệp: để lưu lại điểm cao.
- * đồ họa: thư viện sfml.
+ * Struct: sử dụng để biểu diễn vị trí rắn, quả cherry, tường, điểm cao.
+ * Mảng: rắn,...
+ * Nhập xuất tệp: để lưu lại điểm cao.
+ * Đồ họa: thư viện sfml.
      
 V, **Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình**
 * Kết luận:
-     1. game đã hoàn thành được tương đối các ý tưởng bản thân đề ra.
-     2. đồ họa còn đơn giản.
-     3. thư viện đồ họa rất cần với game. Giúp tạo giao diện sinh động, tương tác với ngươi chơi tốt hơn 
+     1. Game đã hoàn thành được tương đối các ý tưởng bản thân đề ra.
+     2. Đồ họa còn đơn giản.
+     3. Thư viện đồ họa rất cần với game. Giúp tạo giao diện sinh động, tương tác với ngươi chơi tốt hơn.
+     4. 
 * Hướng phát triển:
-   1. Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tường 2 bên, kết hợp giứa chế độ classic và modern.
-   2. Màu sắc của rắn (skin): phát triển thêm nhiều skin mới, bắt mắt và đẹp hơn.
-   3. Thay đổi màu tường.
+     1. Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tường 2 bên, kết hợp giứa chế độ classic và modern.
+     2. Màu sắc của rắn (skin): phát triển thêm nhiều skin mới, bắt mắt và đẹp hơn.
+     3. Thay đổi màu tường.
 * Các điều tâm đắc sau khi hoàn thiện chương trình:
-   1.  biết sử dụng thư viện đồ họa SFML.
-   2.  biết sắp xếp code sao cho dễ đọc và dễ hiểu.
+     1.  Biết sử dụng thư viện đồ họa SFML.
+     2.  Cần tách file để quản lý code dễ hơn, code cần mạch lạc, theo hướng kể chuyện.
+     3.  Sử dung paint để làm đồ họa cho game.
+     4.  Hiểu được logic của game, có kể hoạch phác thảo qua về code và cách bồ chí đồ họa sao cho hợp lý.
+     
+ VI, **Các nguồn tham khảo**
+ https://codelearn.io/sharing/huong-dan-code-game-ran-san-moi-trong-cpp
+ https://www.sfml-dev.org/index.php
+ https://www.youtube.com/watch?v=mLVPY_B3dRU&list=PLZd7ojlRK0byXW3dd-HnucM34JnCPyNkn
    
    
 
