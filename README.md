@@ -4,13 +4,13 @@ I, **Hướng dẫn cài đặt thư viện SFML TRÊN DEV C++**
 
 1. Mở GameSanke, trên thanh công cụ chọn Project -> chọn Project Options.
 2. Chọn Parameters, trong Linker chúng ta dán 4 dòng sau vào:
-     1. -lsfml-audio
-     2. -lsfml-graphics
-     3. -lsfml-window
-     4. -lsfml-system 
+     * -lsfml-audio
+     * -lsfml-graphics
+     * -lsfml-window
+     * -lsfml-system 
  3. Chọn Directories
-     1. trong Libary Directories chúng ta add đường dẫn: SFML-2.4.2\lib
-     2. trong Include Directories ta add đường dẫn: SFML-2.4.2\include
+     * trong Libary Directories chúng ta add đường dẫn: SFML-2.4.2\lib
+     * trong Include Directories ta add đường dẫn: SFML-2.4.2\include
  4. chọn OK, thế là xong các bước cài đặt thư viện sfml vào dev c++. Video hướng dẫn chi tiết (https://www.youtube.com/watch?v=uAd2jINKCxc).
  
 II, **Mô tả chung về trò chơi, các ý tưởng chính**
@@ -24,7 +24,7 @@ III, **Mô tả các chức năng đã cài đặt**
 
  * Chức năng lưu lại điểm cao (High Score).
      1. Lưu lại điểm cao nhất.
-     2. điểm cao được lưu vào file *HighScore.txt*. Khi chạy game điểm trong file *HighScore.txt* sẽ được lấy ra bởi hàm *fHighScore* lưu vào *diem* trong struct *HighScore*. Nếu *_Score* lớn hơn *diem.HighScore* thì *diem.HighScore* sẽ nhận giá trị điểm mới và lưu ngược lại vào *HighScore.txt*. 
+     2. logic: điểm cao được lưu vào file *HighScore.txt*. Khi chạy game điểm trong file *HighScore.txt* sẽ được lấy ra bởi hàm *fHighScore* lưu vào *diem* trong struct *HighScore*. Nếu *_Score* lớn hơn *diem.HighScore* thì *diem.HighScore* sẽ nhận giá trị điểm mới và lưu ngược lại vào *HighScore.txt*. 
  * Chức năng tùy chọn (Option).
     1. Thay đổi màu sắc của rắn (Skin):có 4 màu sắc của rắn, dựa trên 2 màu chính là lục và hồng. Thay đổi phụ thuộc vào sở thích của người chơi.
           
@@ -34,7 +34,7 @@ III, **Mô tả các chức năng đã cài đặt**
           2. logic: khi vị trí đầu của con rắn đi vào cuối vị trí *map* thì đầu sẽ được nhận vị trí được đối diện.
        2. Chế độ hiện đại (Modern): 
           1. có tường bao quanh, rắn khi lao vào tường sẽ bị chết.
-          2. logic: hàm *fEndGame* sẽ check xem rắn có đi vào tường không nếu đi vào tường thì sẽ chết.
+          2. logic: hàm *fEndGame* sẽ check xem rắn có đi đến vị trí được coi là tường không nếu đi vào tường thì sẽ chết.
        
     3. Thay đổi tốc độ của rắn (Level):
        1. có 5 level khác nhau, level càng cao tốc độ của rắn càng tăng.
