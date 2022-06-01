@@ -68,19 +68,19 @@ IV, **Các kỹ thuật lập trình được sử dụng trong chương trình*
      
 V, **Kết luận, hướng phát triển và các điều tâm đắc rút ra được sau khi hoàn thiện chương trình**
 * Kết luận:
-     1. Game đã hoàn thành được tương đối các ý tưởng bản thân đề ra.
-     2. Đồ họa còn đơn giản.
-     3. Thư viện đồ họa rất cần với game. Giúp tạo giao diện sinh động, tương tác với ngươi chơi tốt hơn.
-     4. 
+     * Game đã hoàn thành được tương đối các ý tưởng bản thân đề ra.
+     * Đồ họa còn đơn giản.
+     * Thư viện đồ họa rất cần với game. Giúp tạo giao diện sinh động, tương tác với ngươi chơi tốt hơn.
+     * Để tạo nên một game thì không cần quá nhiều thuật toán khó, nhưng nếu có thể áp dụng vào để game tối ưu hơn thì đó là một điều tuyệt vời.
 * Hướng phát triển:
-     1. Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tường 2 bên, kết hợp giứa chế độ classic và modern.
-     2. Màu sắc của rắn (skin): phát triển thêm nhiều skin mới, bắt mắt và đẹp hơn.
-     3. Thay đổi màu tường.
+     * Chế đồ chơi: phát triển thêm nhiều chế độ chơi mới, các map mới. VD thêm tường ở giữa map, bỏ một phần tường 2 bên, kết hợp giứa chế độ classic và modern.
+     * Màu sắc của rắn (skin): phát triển thêm nhiều skin mới, bắt mắt và đẹp hơn.
+     * Thay đổi màu tường.
 * Các điều tâm đắc sau khi hoàn thiện chương trình:
-     1.  Biết sử dụng thư viện đồ họa SFML.
-     2.  Cần tách file để quản lý code dễ hơn, code cần mạch lạc, theo hướng kể chuyện.
-     3.  Sử dung paint để làm đồ họa cho game.
-     4.  Hiểu được logic của game, có kể hoạch phác thảo qua về code và cách bồ chí đồ họa sao cho hợp lý.
+     *  Biết sử dụng thư viện đồ họa SFML.
+     *  Cần tách file để quản lý code dễ hơn, code cần mạch lạc, theo hướng kể chuyện.
+     *  Sử dụng paint để làm đồ họa cho game.
+     *  Hiểu được logic của game, có kể hoạch phác thảo qua về code và cách bồ chí đồ họa sao cho hợp lý.
      
  VI, **Các nguồn tham khảo**
  * https://codelearn.io/sharing/huong-dan-code-game-ran-san-moi-trong-cpp
